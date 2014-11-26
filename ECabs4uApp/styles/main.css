@@ -34,13 +34,13 @@ body, html {
     margin: 0px auto;
 }
 
-.logo {
+/*.logo {
     background-image: url(../styles/images/logo.png);
     background-repeat: no-repeat;
     width: 319px;
     height: 60px;
     margin: 40px auto;
-}
+}*/
 
 /* BUTTON STYLES*/
 .buttonArea {

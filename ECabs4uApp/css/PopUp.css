@@ -1,0 +1,212 @@
+#popup_box {
+    display: none;
+    width: 99%;
+    z-index: 2000;
+    -moz-box-shadow: 2px 2px 2px #A4A4A4;
+    -webkit-box-shadow: 2px 2px 2px #A4A4A4;
+    box-shadow: 2px 2px 2px #A4A4A4;
+    position: fixed;
+    /*margin:0 5% 0 5%;*/
+    top:15%;    
+    color: white;
+    height:100%;
+    border: 1px double #FFF200;
+    outline: 2px solid #2A81CF;
+    height:100%;
+    
+    
+}
+
+#popup_box22 {
+    display: none;
+    width: 99%;
+    z-index: 2000;
+    -moz-box-shadow: 2px 2px 2px #A4A4A4;
+    -webkit-box-shadow: 2px 2px 2px #A4A4A4;
+    box-shadow: 2px 2px 2px #A4A4A4;
+    position: fixed;
+    /*margin:0 5% 0 5%;*/
+    top:4%;    
+    color: white;
+    height:100%;
+    border: 1px double #FFF200;
+    outline: 2px solid #2A81CF;
+    height:99%;
+    /*overflow:scroll;*/
+    
+}
+
+#popup_box1 {
+    display: none;
+    width: 100%;
+    z-index: 2000;
+    -moz-box-shadow: 2px 2px 2px #A4A4A4;
+    -webkit-box-shadow: 2px 2px 2px #A4A4A4;
+    box-shadow: 2px 2px 2px #A4A4A4;
+    position: fixed;
+    /*margin:0 5% 0 5%;*/
+    top:20%;    
+    color: white;
+    height:auto;
+    border: 1px double #FFF200;
+    outline: 2px solid #2A81CF; /*Blue*/
+}
+
+.popup_header {
+    height: 35px;
+    width: 100%;
+    background-color: #2A81CF;
+    border-bottom: 1px solid #FFF200;
+    text-align: left;
+    vertical-align: middle; 
+    z-index: 1000;
+    color:#FFF200;
+    font-family:'Trebuchet MS';
+    font-size: 20px;
+}
+.popup_headertext {
+    height: 25px;
+    width: 100%;
+    /*background-color: #2A81CF;*/
+    border-bottom: 1px solid #FFF200;
+    text-align: left;
+    vertical-align: middle; 
+    z-index: 1000;
+    color:#636363;
+    font-family:'Trebuchet MS';
+    font-size: 12px;
+}
+
+.popup_content {
+    text-align: justify;
+    background-color: white;
+    font-family:'Trebuchet MS';
+    padding:3px 3px 3px 3px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    z-index: 1000;
+    color:black;
+}
+
+.popup_footer {
+    height: 30px;
+    z-index: 1000;
+    background-color: white;
+    color:#FFF200;
+    border-top: 1px solid yellow;
+    
+}
+
+.ok {
+    outline: none;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    color: #FFF200;
+    border:#2A81CF;
+    background-color: #2A81CF;
+    
+}
+
+#transparent_div {
+    padding-top:130px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    background-color: #838383;
+    width: 100%;
+    height: 1500px;
+}
+
+#transparent_div2 {
+    padding-top:130px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    opacity: 1.8;
+    filter: alpha(opacity=80);
+    background-color: #838383;
+    width: 100%;
+    height: 1500px;
+}
+
+
+#divRejectJob {
+    display: none;
+    border:1px solid #7F7F7F;
+    width: 75%;
+    margin: 11px;
+    padding:25px;
+    background-color:#E3E4E4;
+    z-index: 2000;
+    -moz-box-shadow: 2px 2px 2px #A4A4A4;
+    -webkit-box-shadow: 2px 2px 2px #A4A4A4;
+    box-shadow: 2px 2px 2px #A4A4A4;
+    position: fixed;
+    top:20%;  
+    color: black;
+    height:auto;
+    border: 1px double #FFF200;
+    font-size:20px;
+    outline: 2px solid #2A81CF; /*Blue*/
+}
+
+#myTimer {
+  font:64px Tahoma bold;
+  padding:20px;
+  display:block;
+}
+
+.btnEnable {
+  background-color:#E6F9D2;
+  border:1px solid #97DE4C;
+  color:#232323;
+  cursor:pointer;
+}
+
+.btnDisable {
+  background-color:#FCBABA;
+  border:1px solid #DD3939;
+  color:#232323;
+  cursor:wait;
+}
+#bookingmsg{
+    display: none;
+    width: 99%;
+    padding-top:41%;
+   
+    position: fixed;
+    /*margin:0 5% 0 5%;
+    top:15%;  */  
+    color: white;
+    height:100%;
+    border: 1px double #FFF200;
+    outline: 2px solid #2A81CF;
+    
+}
+.footerDiv {
+    height: 50px;
+  
+    background-color: white;
+    color:#FFF200;
+    border-top: 1px solid yellow;
+    
+}
+.ok2 {
+    outline: none;
+    width: 80%;
+    height: 41px;
+    text-align: center;
+    font-size: 145%;
+    color: #FFF200;
+    border:#2A81CF;
+    background-color: #2A81CF;
+    
+}

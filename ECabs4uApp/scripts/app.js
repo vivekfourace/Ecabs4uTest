@@ -8,11 +8,14 @@
     // create an object to store the models for each view
     window.APP = {
       models: {
-        home: {
-          title: 'Home'
+        profile: {
+          title: 'Profile'
         },
         settings: {
-          title: 'Settings'
+          title: 'Bookings'
+        },
+          home: {
+          title: 'Home'
         },
         contacts: {
           title: 'Contacts',
@@ -43,7 +46,7 @@
         skin: 'flat',
 
         // the application needs to know which view to load first
-        initial: 'views/home.html'
+        initial: 'views/Login.html'
       });
 
     }, false);
