@@ -3,19 +3,22 @@
 
     // store a reference to the application object that will be created
     // later on so that we can use it if need be
-    var app;
-
+   var app;
+ 
     // create an object to store the models for each view
     window.APP = {
       models: {
-        profile: {
-          title: 'Profile'
+        CustomerProfile: {
+          title: 'CustomerProfile'
         },
-        settings: {
-          title: 'Bookings'
+        Login: {
+          title: 'Login'
         },
           home: {
           title: 'Home'
+        },
+          bookings: {
+          title: 'Bookings'
         },
         contacts: {
           title: 'Contacts',
@@ -44,9 +47,9 @@
         // comment out the following line to get a UI which matches the look
         // and feel of the operating system
         skin: 'flat',
-
+        platform: "ios7",
         // the application needs to know which view to load first
-        initial: 'views/Login.html'
+        initial: 'views/CustomerProfile.html'
       });
 
     }, false);

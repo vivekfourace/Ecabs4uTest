@@ -11,8 +11,9 @@
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
-
     <script src="scripts/app.js"></script>
+    <script src="js/login.js"></script>
+  
 
 </head>
 <body>
@@ -27,24 +28,30 @@
             </div>
         </div>
         
-        <!-- application views will be rendered here -->
-        
         <div data-role="footer">
             <div data-role="tabstrip">
-                <a href="views/home.html" ><img src="img/search.png" style="height:20px;" onclick="searchpage()"/>Search</a>
-                <a href="views/CustomerProfile.html" ><img src="img/User.png" style="height:20px;" onclick="myProfile()" /><br/>Profile</a>
-                <a href="views/settings.html" ><img src="img/Cab.png" style="height:20px;" onclick="myBooking()" /><br/>Bookings</a>
-                <a href="views/History.html" ><img src="img/History1.png" style="height:20px;" onclick="bookedHistory()" /><br/>History</a>
-                <a href="views/Login.html">
-                    <img src="img/logout.png" style="height:20px;" onclick="logout()" />Logout                                  
-                </a>
-
-               <!--<a href="views/CustomerProfile.html" data-icon="contacts">Profile</a>   
-                <a href="views/settings.html" data-icon="settings">Settings</a>
-                <a href="views/contacts.html" data-icon="contacts">Contacts</a>-->
+                
+                <a href="views/home.html"><img src="img/search.png" style="height:20px;" />Search</a>
+                <a href="views/CustomerProfile.html"><img src="img/User.png" style="height:20px;" /><br/>Profile</a>
+                <a href="views/settings.html"><img src="img/Cab.png" style="height:20px;" /><br/>Bookings</a>
+                <a href="views/History.html"><img src="img/History1.png" style="height:20px;"  /><br/>History</a>
+                <a href="views/Login.html"><img src="img/logout.png" style="height:20px;" />Logout</a>
+                
             </div>
         </div>
     </div>
 
+    <div data-role="layout" data-id="loginmain">
+        <div data-role="header">
+            <div data-role="navbar" style="background-color:#2D82D0;">
+                <div style="float:left;height:60px;">
+                      <img src="img/logo1.png" class="logo"/>
+                </div>
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+        
+        <div data-role="footer"> </div>
+    </div>
 </body>
 </html>
